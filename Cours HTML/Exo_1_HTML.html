@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Cours CSS/Exo_1_HTML.css">
     <title>Exercice</title>
 </head>
 
@@ -10,14 +11,13 @@
     <header>
         <h1>Mes premières balises HTML</h1>
     </header>
-
-    <section>
+    <section id="sec1">
         <h2>Exo 01<h2>
         <p><span style="font-weight:normal;">Bonjour, <strong>Joyeux Halloween</strong>, on attend avec impatience ce : Week-end de 3 jours </span></p>
     </section>
 
-    <section>
-        <h3>Exo 02</h3>
+    <section id="sec2">
+        <h2>Exo 02</h2>
         <p><strong> Mon repas de Noël </strong></p>
 
         <p>J’ai eu la chance d’avoir un repas de Noël excellent, puisqu’il était composé des plats suivants </p>
@@ -35,25 +35,28 @@
 
         <p>Après, j'ai pu déballer tous mes cadeaux </p>
 
-        <ul>
+        <ol>
             <li>1. Mamie Lulu : des <strong>DVD</strong></li>
             <li>2. Mamie Elisabeth : des CD</li>
             <li>3. Tonton Hugues : des <strong>livres</strong></li>
-        </ul>
+        </ol>
+
+        <img src="/Cours CSS/img/apple.jpg" alt="apple">
+
     </section>
 
-    <section>
+    <section id="sec3">
         <h3>Exo 03</h3>
 
-        <ul>1. <span style="text-decoration: underline;">HTML:</span> HyperText Markup Language
+        <ol>1. <span style="text-decoration: underline;">HTML:</span> HyperText Markup Language
             <blockquote><li>C’est la structure de la page html où on organise les titres, paragraphes, listes, tableaux...</li></blockquote>
-        </ul>
+        </ol>
 
-        <ul>2. <span style="text-decoration: underline;">CSS:</span> Cascading Style Sheet
+        <ol>2. <span style="text-decoration: underline;">CSS:</span> Cascading Style Sheet
             <blockquote><li>C'est la mise en forme, le design, l'apparence (les couleurs, les tailles, les positionnementssur la page)</li>
-        </ul>
+        </ol>
 
-        <ul>3. <span style="text-decoration: underline;">Terminologie:</span>
+        <ol>3. <span style="text-decoration: underline;">Terminologie:</span>
             <blockquote><li>Eléments : ils définissent la structure et le contenu des objets au sein d'une page. Les plus 
                 couramment utilisés sont les niveaux de titre (h1 à h6) et les paragraphes (avec la balise p)</li>
                 <br>
@@ -73,11 +76,11 @@
                 d'un contenu qui peut être imbriqué) et l'attribut HREF (qui contient un lien hypertexte vers 
                 une ressource liée). Les attributs sont définis au sein de la balise ouvrante après le nom de
                 l'élément :
-                &lt;a href="<span style="text-decoration: underline; color: blue;">https://github.com/Ma6Tvacoder-Docs/partages"></span>Lien</a>
+                &lt;a href="<span class="lien" style="text-decoration: underline;">https://github.com/Ma6Tvacoder-Docs/partages"></span>Lien</a>
             </li></blockquote>
-        </ul>
+        </ol>
 
-        <ul>4. <span style="text-decoration: underline;">Structure:</span>
+        <ol>4. <span style="text-decoration: underline;">Structure:</span>
             <blockquote><li>Un fichier HTML est un fichier de texte brut (non mis en forme) enregistré avec l'extension _.html_.</li></blockquote>
                 
             <blockquote><li>Tous les fichiers html ont une structure de base qui implique de déclarer les éléments suivants : <br />
@@ -96,7 +99,7 @@
             <blockquote><li><b>!DOCTYPE html</b> informe le navigateur web que le document est de type html et qu'il s'agit 
                 (ici) de la dernière version du langage, le HTML 5. En HTML 4.01, la précédente version 
                 avant la 5, cette balise s’écrivait &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 
-                Frameset//EN<span style="text-decoration: underline; color: blue;">"http://www.w3.org/TR/html4/frameset.dtd"</span>
+                Frameset//EN<span class="lien" style="text-decoration: underline;">"http://www.w3.org/TR/html4/frameset.dtd"</span>
             </li></blockquote>
                 
             <blockquote><li>A l'intérieur de l'élément html la balise <b>head</b> identifie le début du document et inclut les 
@@ -130,24 +133,26 @@
                 </pre>
 
                 </li></blockquote>
-        </ul>
+        </ol>
 
-    <blockquote><ul>5. <span style="text-decoration: underline;">Le W3C </span> - La validation du code </blockquote>
-            <p><strong>Le World Wide Web Consortium</strong>, abrégé par le sigle <strong>W3C</strong>, est un organisme de standardisation à 
-                but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du 
-                <span style="text-decoration: underline; color: blue;">World Wide Web </span> 
-                telles que <span style="text-decoration: underline; color: blue;">HTML5, HTML, CSS, PNG, SVG …Le W3C ou World Wide Web 
-                Consortium</span>, est un organisme international qui développe des <span style="text-decoration: underline; color: blue;">standards</span> pour le Web afin que les 
-                gens puissent communiquer efficacement à travers Internet, autour de formats ouverts garantissant 
-                une meilleure interopérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à 
-                travers des données et langages standardisés).Le consortium existe depuis 1994 et est dirigé par 
-                l'inventeur du Web, Tim Berners-Lee.Il est composé d'une équipe fixe et des membres (dont plusieurs 
-                centaines d'entreprises partenaires). Les membres délèguent des ingénieurs au sein du W3C et 
-                participent ainsi à l'élaboration des spécifications techniques pour les technologies du Web. De 
-                nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, 
-                Mozilla, Apple, Opera, Google, etc).
-            </p>
-        </ul>
+        <footer>
+            <blockquote><ul>5. <span style="text-decoration: underline;">Le W3C </span> - La validation du code </blockquote>
+                <p><strong>Le World Wide Web Consortium</strong>, abrégé par le sigle <strong>W3C</strong>, est un organisme de standardisation à 
+                    but non lucratif, fondé en octobre 1994 chargé de promouvoir la compatibilité des technologies du 
+                    <span style="text-decoration: underline; color: blue;">World Wide Web </span> 
+                    telles que <span style="text-decoration: underline; color: blue;">HTML5, HTML, CSS, PNG, SVG …Le W3C ou World Wide Web 
+                    Consortium</span>, est un organisme international qui développe des <span style="text-decoration: underline; color: blue;">standards</span> pour le Web afin que les 
+                    gens puissent communiquer efficacement à travers Internet, autour de formats ouverts garantissant 
+                    une meilleure interopérabilité (c'est-à-dire une meilleure compréhension des systèmes hétérogènes à 
+                    travers des données et langages standardisés).Le consortium existe depuis 1994 et est dirigé par 
+                    l'inventeur du Web, Tim Berners-Lee.Il est composé d'une équipe fixe et des membres (dont plusieurs 
+                    centaines d'entreprises partenaires). Les membres délèguent des ingénieurs au sein du W3C et 
+                    participent ainsi à l'élaboration des spécifications techniques pour les technologies du Web. De 
+                    nombreux membres actifs font partie des équipes de développement des navigateurs (Microsoft, 
+                    Mozilla, Apple, Opera, Google, etc).
+                </p>
+            </ul>
+        </footer>
     </section>
 
 </body>

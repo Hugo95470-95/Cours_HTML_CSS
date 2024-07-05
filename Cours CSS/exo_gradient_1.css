@@ -1,0 +1,26 @@
+
+header {
+    background-color: salmon;
+    padding-bottom: 50px;
+}
+
+section {
+    padding-bottom: 500px;
+}
+
+section h2 {
+    margin-bottom: -15px;
+}
+
+section p {
+    margin-bottom: -15px;
+}
+
+
+
+footer {
+    background-color: salmon;
+    bottom: 0px;
+    position: absolute;
+    padding-right: 95%;
+}

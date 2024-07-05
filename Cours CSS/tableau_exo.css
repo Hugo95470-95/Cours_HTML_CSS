@@ -1,0 +1,206 @@
+body {
+    width: 960px;
+    margin: auto;
+}
+
+table {
+    border: 4px solid #483d8b;
+    width: 70%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    font-size: 20px;
+    border: 1px dotted #6a5acd;
+    text-align: center;
+    padding: 20px;
+}
+
+
+tbody .L1 td:nth-child(2){
+    background-color: yellow;
+}
+
+
+tbody .L2 td:nth-child(2),
+tbody .L2 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L2 td:nth-child(3){
+    background-color: gray;
+}
+
+
+tbody .L3 td:nth-child(2),
+tbody .L3 td:nth-child(6){
+    background-color: yellow;
+}
+
+tbody .L3 td:nth-child(3),
+tbody .L3 td:nth-child(5){
+    background-color: gray;
+}
+
+
+tbody .L4 td:nth-child(2),
+tbody .L4 td:nth-child(5),
+tbody .L4 td:nth-child(8){
+    background-color: black;
+}
+
+tbody .L4 td:nth-child(3),
+tbody .L4 td:nth-child(7){
+    background-color: gray;
+}
+
+
+tbody .L5 td:nth-child(2),
+tbody .L5 td:nth-child(5),
+tbody .L5 td:nth-child(8){
+    background-color: black;
+}
+
+tbody .L5 td:nth-child(3),
+tbody .L5 td:nth-child(7){
+    background-color: gray;
+}
+
+
+tbody .L6 td:nth-child(2),
+tbody .L6 td:nth-child(6){
+    background-color: yellow;
+}
+
+tbody .L6 td:nth-child(3),
+tbody .L6 td:nth-child(5){
+    background-color: gray;
+}
+
+
+tbody .L7 td:nth-child(2),
+tbody .L7 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L7 td:nth-child(3){
+    background-color: gray;
+}
+
+
+tbody .L8 td:nth-child(2),
+tbody .L8 td:nth-child(4),
+tbody .L8 td:nth-child(6){
+    background-color: yellow;
+}
+
+tbody .L8 td:nth-child(3),
+tbody .L8 td:nth-child(5){
+    background-color: black;
+}
+
+
+tbody .L9 td:nth-child(2),
+tbody .L9 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L9 td:nth-child(3){
+    background-color: black;
+}
+
+
+tbody .L10 td:nth-child(2){
+    background-color: yellow;
+}
+
+
+tbody .L11 td:nth-child(3){
+    background-color: yellow;
+}
+
+tbody .L11 td:nth-child(2),
+tbody .L11 td:nth-child(4){
+    background-color: blue;
+}
+
+
+tbody .L12 td:nth-child(2),
+tbody .L12 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L12 td:nth-child(3){
+    background-color: blue;
+}
+
+
+tbody .L13 td:nth-child(2),
+tbody .L13 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L13 td:nth-child(3){
+    background-color: blue;
+}
+
+
+tbody .L14 td:nth-child(2),
+tbody .L14 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L14 td:nth-child(3){
+    background-color: blue;
+}
+
+
+tbody .L15 td:nth-child(2),
+tbody .L15 td:nth-child(4){
+    background-color: yellow;
+}
+
+tbody .L15 td:nth-child(3){
+    background-color: blue;
+}
+
+
+tbody .L17 td:nth-child(2),
+tbody .L17 td:nth-child(4){
+    background-color: black;
+}
+
+tbody .L17 td:nth-child(3){
+    background-color: blue;
+}
+
+
+tbody .L18 td:nth-child(2),
+tbody .L18 td:nth-child(4){
+    background-color: black;
+}
+
+tbody .L18 td:nth-child(3){
+    background-color: blue;
+}
+
+
+tbody .L19 td:nth-child(2),
+tbody .L19 td:nth-child(4){
+    background-color: black;
+}
+
+tbody .L20 td:nth-child(2),
+tbody .L20 td:nth-child(4){
+    background-color: black;
+}
+
+
+tfoot {
+    background-color: green;
+}
